@@ -8,11 +8,14 @@
 
 ## Instalación
 1. **Instalar dependencias**
-    npm install
+*npm install*
+*npm i ts-node*
+*npm i @types/cors*
+*npm i cors*
 
 ## Ejecución
 1. **Iniciar el servidor**
-    npm run dev
+*npm run dev*
 
 ## Estructura-del-proyecto
 El proyecto sigue la siguiente estructura

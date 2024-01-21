@@ -7,12 +7,14 @@
 
 ## Instalación
 1. **Instalar dependencias**
-    cd frontend
-    npm install
+*cd frontend*
+*npm install*
+*npm install popper.js bootstrap*
+*npm install @fortawesome/fontawesome*
 
 ## Ejecución
 1. **Iniciar el servidor**
-    npm start
+*npm start*
 
 ## Estructura-del-proyecto
 El proyecto sigue la siguiente estructura:
@@ -23,18 +25,18 @@ El proyecto sigue la siguiente estructura:
 
 ## Componentes-principales
 **Articulos**
-Este componente permite realizar operaciones de Consulta y Edicion en la información de los artículos.
+- Este componente permite realizar operaciones de Consulta y Edicion en la información de los artículos.
 
 *Estructura*:
-Articulos.tsx: Componente principal para la gestión de artículos.
-ArticulosListado.tsx: Presentación de la lista de artículos.
-ArticulosEditar.tsx: Formulario para editar los detalles de un artículo.
+- Articulos.tsx: Componente principal para la gestión de artículos.
+- ArticulosListado.tsx: Presentación de la lista de artículos.
+- ArticulosEditar.tsx: Formulario para editar los detalles de un artículo.
 
 **Servicios**
-Articulos Service
-Este servicio proporciona métodos para interactuar con la API de artículos en el backend.
+- Articulos Service
+- Este servicio proporciona métodos para interactuar con la API de artículos en el backend.
 
 *Métodos*:
-Buscar(): Obtiene todos los artículos.
-BuscarPorId(item): Obtiene un artículo por su ID.
-Grabar(item): Guarda o modifica un artículo.
+- Buscar(): Obtiene todos los artículos.
+- BuscarPorId(item): Obtiene un artículo por su ID.
+- Grabar(item): Guarda o modifica un artículo.
