@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(241, 243, 247);
+}
+
+.divBody {
+  background-color: white;
+  min-height: 75vh;
+  padding: 1rem;
+}
+
+/* pie de la pagina */
+footer {
+  padding: 1rem;
+}
+
+.navbar-brand {
+  color: aquamarine;
+  font-size: 1.5rem;
+}
+
+.tituloPagina {
+  color: #282c34;
+  margin-bottom: 0;
+  font-size: 45px;
+  line-height: 65px;
+  font-weight: 700;
+}
